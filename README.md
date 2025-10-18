@@ -7,7 +7,7 @@ Which artists act as the key collaboration hubs in recent top-streamed Spotify t
 Record labels and artist managers deciding whom to target for features and cross-promotion.
 
 ## Data
-- Source: Spotify "Most Streamed Songs" CSV (Kaggle).  
+- Source: https://www.kaggle.com/datasets/abdulszz/spotify-most-streamed-songs?resource=download  
 - Key fields: `track_name`, `artist(s)_name`, `artist_count`, `streams`, `in_spotify_playlists`, `in_spotify_charts`, release date.  
 - Filtered to multi-artist tracks, cleaned streams (numeric), and standardized artist names.  
 
@@ -32,7 +32,7 @@ Record labels and artist managers deciding whom to target for features and cross
 - Dataset skewed toward **recent hits**.  
 
 ## Tools
-**pandas**, **networkx**, **matplotlib**, **folium/pyvis**.
+**pandas**, **networkx**, **matplotlib**
 
 ---
 
